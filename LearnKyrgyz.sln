@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E072902-4837-4F9A-B779-2B1F1F56A6BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{671E530C-3233-40C6-B9BC-2FDCF5E5CEA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnKyrgyz.Web", "src\LearnKyrgyz.Web\LearnKyrgyz.Web.csproj", "{2527FB05-B4A7-424D-A77B-3B0C7CFFE8B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnKyrgyz.Persistence", "src\LearnKyrgyz.Persistence\LearnKyrgyz.Persistence.csproj", "{0C67C612-260F-4948-9904-AAB051BF3DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnKyrgyz.Components", "src\LearnKyrgyz.Components\LearnKyrgyz.Components.csproj", "{43CD2E49-E6F2-4367-B6DB-6ED8E6C4C3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnKyrgyz.Domain", "src\LearnKyrgyz.Domain\LearnKyrgyz.Domain.csproj", "{E7A9B79B-DB00-4CC2-AFE6-FDC5E85EFA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnKyrgyz.Application", "src\LearnKyrgyz.Application\LearnKyrgyz.Application.csproj", "{EE990630-D469-4A7A-9BAB-DE54581E9A6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2527FB05-B4A7-424D-A77B-3B0C7CFFE8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2527FB05-B4A7-424D-A77B-3B0C7CFFE8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2527FB05-B4A7-424D-A77B-3B0C7CFFE8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2527FB05-B4A7-424D-A77B-3B0C7CFFE8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C67C612-260F-4948-9904-AAB051BF3DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C67C612-260F-4948-9904-AAB051BF3DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C67C612-260F-4948-9904-AAB051BF3DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C67C612-260F-4948-9904-AAB051BF3DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CD2E49-E6F2-4367-B6DB-6ED8E6C4C3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CD2E49-E6F2-4367-B6DB-6ED8E6C4C3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CD2E49-E6F2-4367-B6DB-6ED8E6C4C3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CD2E49-E6F2-4367-B6DB-6ED8E6C4C3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A9B79B-DB00-4CC2-AFE6-FDC5E85EFA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A9B79B-DB00-4CC2-AFE6-FDC5E85EFA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A9B79B-DB00-4CC2-AFE6-FDC5E85EFA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A9B79B-DB00-4CC2-AFE6-FDC5E85EFA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE990630-D469-4A7A-9BAB-DE54581E9A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE990630-D469-4A7A-9BAB-DE54581E9A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE990630-D469-4A7A-9BAB-DE54581E9A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE990630-D469-4A7A-9BAB-DE54581E9A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2527FB05-B4A7-424D-A77B-3B0C7CFFE8B2} = {0E072902-4837-4F9A-B779-2B1F1F56A6BC}
+		{0C67C612-260F-4948-9904-AAB051BF3DAC} = {0E072902-4837-4F9A-B779-2B1F1F56A6BC}
+		{43CD2E49-E6F2-4367-B6DB-6ED8E6C4C3C9} = {0E072902-4837-4F9A-B779-2B1F1F56A6BC}
+		{E7A9B79B-DB00-4CC2-AFE6-FDC5E85EFA65} = {0E072902-4837-4F9A-B779-2B1F1F56A6BC}
+		{EE990630-D469-4A7A-9BAB-DE54581E9A6E} = {0E072902-4837-4F9A-B779-2B1F1F56A6BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C034353-0FBD-46A5-9339-71E7D7DD66DA}
+	EndGlobalSection
+EndGlobal
