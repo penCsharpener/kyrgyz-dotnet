@@ -10,4 +10,8 @@
     <ProjectReference Include="..\LearnKyrgyz.Domain\LearnKyrgyz.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+  </ItemGroup>
+
 </Project>

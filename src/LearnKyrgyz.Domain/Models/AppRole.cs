@@ -1,4 +1,6 @@
-﻿namespace LearnKyrgyz.Domain.Models;
-internal class AppRole : identituser
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace LearnKyrgyz.Domain.Models;
+public class AppRole : IdentityRole<int>
 {
 }
