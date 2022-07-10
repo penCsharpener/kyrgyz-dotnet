@@ -1,26 +1,13 @@
-using LearnKyrgyz.Domain.Models;
-using LearnKyrgyz.Persistence.Data;
-using LearnKyrgyz.Web.Areas.Identity;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.EntityFrameworkCore;
+using LearnKyrgyz.Web.Extensions;
 
 namespace LearnKyrgyz.Web;
+
 public class Program
 {
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-
-        // Add services to the container.
-        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-        builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlite(connectionString));
-        builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-        builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
-            .AddEntityFrameworkStores<AppDbContext>();
-        builder.Services.AddRazorPages();
-        builder.Services.AddServerSideBlazor();
-        builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<AppUser>>();
+        builder.RegisterWebServices();
 
         var app = builder.Build();
 
